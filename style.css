@@ -24,9 +24,11 @@ section {
   display: flex;
 }
 
+
+
 .social a {
-  width: 45px;
-  height: 45px;
+  width: 75px;
+  height: 75px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -35,7 +37,7 @@ section {
   margin: 22px 10px;
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .social a:hover {
