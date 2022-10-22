@@ -3,25 +3,29 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Portfolio Web</title>
+    <title>Portfolio Martin</title>
+    <!-- BOOTSTRAP CDN LINK -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous" />
     <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <!-- BOOTSTRAP ICON LINK -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="style.css" />
+    <!-- FONT AWESOME LINK -->
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
       integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+      referrerpolicy="no-referrer"/>
+      <!-- KIT CODE -->
+      <script src="https://kit.fontawesome.com/72ded83c5c.js" crossorigin="anonymous"></script>
   </head>
   <body id="home">
     <!-- NAVIGATION BAR -->
 
     <nav class="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top" style="background-color: #386641">
       <div class="container">
-        <a class="navbar-brand" href="#">Martin Agistha</a>
+        <a class="navbar-brand fw-bold" href="#">Martin Agistha S.</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -47,10 +51,12 @@
     <!-- NAVIGATION BAR END -->
 
     <!-- Jumbotron -->
+    <div class="bgImage">
+      <div class="overlay"></div>
     <section class="jumbotron text-center">
       <img src="img/DSCF5686_edit.jpg" alt="Martin" width="200" class="rounded-circle img-thumbnail" />
-      <h1 class="display-4">Hello<span>!</span></h1>
-      <p class="lead">I'm Martin and i am a student.</p>
+      <h1 class="display-5 mt-2">Martin Agistha Suhaeri</h1>
+      <p class="lead">Student | Frontend Developer</p>
       <!-- <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
         <path
           fill="#ffffff"
@@ -59,6 +65,7 @@
         ></path>
       </svg> -->
     </section>
+  </div>
     <!-- Jumbotron END -->
 
     <!-- About -->
@@ -70,11 +77,21 @@
           </div>
         </div>
         <div class="row justify-content-center fs-5 text-center">
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi distinctio enim blanditiis, perferendis natus quisquam optio soluta nihil fugit obcaecati.</p>
+          <div class="col-md-8">
+            <p">Hola! My name is Martin Agistha Suhaeri, you can call me Martin and now i'm 5th semester at Binus University with Computer Science major. I'm interested with Web Development and Design.</p>
           </div>
-          <div class="col-md-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam esse cupiditate, rem aspernatur alias itaque vero voluptatibus eveniet in iusto beatae repellat eius earum omnis.</p>
+          <div class="row text-center mb-3 mt-3">
+            <div class="col">
+              <h2 class="fw-bolder">Tools I've been used</h2>
+              <div class="tools justify-content-center"> 
+                <i class="github fa-brands fa-square-github"></i>
+                <i class="html5 fa-brands fa-html5"></i>
+                <i class="css fa-brands fa-css3-alt"></i>
+                <i class="figma fa-brands fa-figma"></i>
+                <i class="bootstrap fa-brands fa-bootstrap"></i>
+              </div>
+             
+            </div>
           </div>
         </div>
       </div>
@@ -93,16 +110,16 @@
       <div class="container">
         <div class="row text-center mb-3">
           <div class="col">
-            <h2 class="fw-bolder">My Projects</h2>
+            <h2 class="fw-bolder pb-3">My Project</h2>
           </div>
         </div>
         <div class="row justify-content-center">
           <div class="col-md-4 mb-3">
             <div class="card" style="width: 18rem;">
-              <img src="img/project_porto/Frame 1.png" class="card-img-top" alt="PWNI COMMUNITY" />
+              <img src="img/project_porto/Frame 1_baru.png" class="card-img-top" alt="PWNI COMMUNITY" />
               <div class="card-body">
                 <p class="card-text">
-                  <h3>PWNI Community UI Design</h3> <a class="btn btn-primary mt-3" href="https://www.figma.com/file/nIKh99BubtVjea0peGCoSI/UAS_HCI?node-id=0%3A1">See more</a></p>
+                  <h3>PWNI Community Design</h3> <p class="text-muted">A Website build for PWNI Community</p> <a class="btn btn-primary mt-3" href="https://www.figma.com/file/nIKh99BubtVjea0peGCoSI/UAS_HCI?node-id=0%3A1">See more</a></p>
               </div>
             </div>
           </div>
@@ -110,31 +127,23 @@
             <div class="card" style="width: 18rem;">
               <img src="img/project_porto/Frame 2.png" class="card-img-top" alt="EXAM TEST DESIGN" />
               <div class="card-body">
-                <p class="card-text"> <h3>Exam Test Design</h3><a class="btn btn-primary mt-3" href="https://www.figma.com/file/oV20vIph0Uz00lofZUIIoY/SE_UTS?node-id=201%3A123">See more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 mb-3">
-            <div class="img-thumbnail" style="width: 18rem">
-              <img src="/img/projects2/3.jpg" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellat voluptatibus, accusantium voluptas fugit eaque error.</p>
+                <p class="card-text"> <h3>Exam Test Design</h3> <p class="text-muted">A Online shop website for baby's stuff </p><a class="btn btn-primary mt-3" href="https://www.figma.com/file/oV20vIph0Uz00lofZUIIoY/SE_UTS?node-id=201%3A123">See more</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card" style="width: 18rem">
-              <img src="/img/projects2/4.jpg" class="card-img-top" alt="..." />
+              <img src="img/project_porto/Frame 3.png" class="card-img-top" alt="SERVICE APPLICATION" />
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, commodi? Maxime aspernatur minus nesciunt voluptate.</p>
+                <p class="card-text"><h3>FIX & GO!</h3><p class="text-muted">A Service Application for home services</p><a href="https://www.figma.com/file/USJQGl0kobgxE26pjWIU33/FIX-%26-GO!?node-id=0%3A1" class="btn btn-primary mt-3">See more</a></p>
               </div>
             </div>
           </div>
           <div class="col-md-4 mb-3">
             <div class="card" style="width: 18rem">
-              <img src="/img/projects2/5.jpg" class="card-img-top" alt="..." />
+              <img src="img/project_porto/Frame 4.png" class="card-img-top" alt="KASKUS" />
               <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem vitae possimus eveniet totam sapiente quaerat!</p>
+                <p class="card-text"><H3>Redesign Website</H3><p class="text-muted">Redesign an old website with new design</p><a href="https://www.figma.com/file/z0rtYU5MnFscKQAnkJ027N/KASKUS-REVAMP?node-id=0%3A1" class="btn btn-primary mt-3">See more</a></p>
               </div>
             </div>
           </div>
@@ -195,7 +204,7 @@
 
     <!-- Footer -->
     <footer class="text-white text-center pb-5" style="background-color: #386641">
-      <p>Created with <i class="bi bi-heart-fill text-danger"></i> by <a href="https://www.instagram.com/martinagistha_/" class="text-white fw-bold">Martin</a></p>
+      <p>Created by <a href="https://www.instagram.com/martinagistha_/" class="text-white text-decoration-none">Martin Agistha Suhaeri</a></p>
     </footer>
     <!-- Footer END -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
