@@ -7,6 +7,8 @@ const sr = ScrollReveal({
   // reset: true
 });
 
+sr.reveal(`.home_animate_1`);
+sr.reveal(`.home_animate_photo`,{delay:1200});
 sr.reveal(`.about_me`);
 sr.reveal(`.tools_animate`,{delay:950});
 sr.reveal(`.project_1`);
