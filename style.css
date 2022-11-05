@@ -158,3 +158,68 @@ h3 {
   font-weight: bold;
   font-size: 20px;
 }
+
+@media (max-width:377px) {
+  section{
+    padding-top: 3rem;
+  }
+
+  #jumbotron .col-lg-7 {
+    margin-top: 0;
+  }
+
+  #about{
+    padding-top: 0;
+  }
+
+  p{
+    font-size: 15px;
+  }
+
+  #about .about_main{
+    padding-bottom: 3rem;
+  }
+
+  .home_animate_photo {
+    margin: 20px 0;
+  }
+
+  #contact .col h2,
+  #about .col h2{
+    font-size: 30px;
+    margin: 0;
+  }
+
+  #contact .social a{
+    width: 45px;
+    height: 45px;
+    font-size: 25px;
+  }
+
+}
+
+@media (max-width:799px){
+  html{
+    width: 100%;
+  }
+
+  #jumbotron{
+    padding-bottom: 0;
+  }
+
+  #about{
+    padding-top: 0;
+  }
+
+  #about .about_main{
+    padding-bottom: 3rem;
+  }
+
+  #projects{
+    padding-top: 40px;
+  }
+
+  p{
+    font-size: 30px;
+  }
+}
