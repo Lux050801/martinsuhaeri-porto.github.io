@@ -37,7 +37,7 @@ body {
 }
 
 #about{
-  padding-top: 7rem;
+  padding-top: 3rem;
 }
 
 .about_main {
@@ -46,6 +46,10 @@ body {
 
 #projects {
   background-color: #E89246;
+}
+
+#projects .col h2{
+  padding-top: 50px;
 }
 
 .card {
@@ -71,7 +75,7 @@ body {
 }
 
 section {
-  padding-top: 5rem;
+  padding-top: 1rem;
 }
 
 .tools {
@@ -164,7 +168,11 @@ h3 {
     padding-top: 3rem;
   }
 
-  #jumbotron .col-lg-7 {
+  .my-profile{
+    height: 50%;
+  }
+
+  #jumbotron .col-lg-7{
     margin-top: 0;
   }
 
@@ -198,7 +206,7 @@ h3 {
 
 }
 
-@media (max-width:799px){
+@media (max-width:768px){
   html{
     width: 100%;
   }
